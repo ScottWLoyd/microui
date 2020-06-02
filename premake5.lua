@@ -8,14 +8,9 @@ project "microui"
 
    files 
    { 
-      "%{prj.name}/src/**.h",
-      "%{prj.name}/src/**.c" 
+      "src/**.h",
+      "src/**.c" 
    }
-
-   --includedirs
-   --{
-   --   "AlbaEngine/src",
-   --}
 
    filter "system:windows"
       systemversion "latest"      
